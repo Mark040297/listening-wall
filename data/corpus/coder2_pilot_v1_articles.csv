@@ -1,0 +1,16 @@
+id,continuous_sensing,ai_ml,network,sound_classification,speech_classification,processing_location,processing_domain,deployment_setting,note
+RA1,yes,no,no,no,no,local_only,time_domain,personal_wearable,FxRLS-NLMS on FPGA neuromorphic arithmetic for ANC headphones; speech only played as test signal
+RA2,yes,yes,no,no,no,local_only,time_domain,vehicle_interior,CNN plus fuzzy neural network ANC for autonomous rail rapid transit cabin
+RA3,yes,yes,no,no,no,local_only,time_domain,personal_wearable,dilated CNN on FPGA for in-ear headphone ANC; noise classification only in related work
+RA64,yes,yes,unclear,yes,no,local_only,time_frequency,personal_wearable,GFANC headphone; CNN on co-processor (link not described) predicts sub-filter weights as multi-label noise classification from mel input
+RA167,yes,no,yes,no,no,local_only,time_domain,personal_wearable,wireless microphones send reference signals to ANC headphone
+RA56,yes,yes,no,no,no,local_only,time_domain,outdoor_industrial,deep learning feedback ANC for construction noise and active noise barriers
+RA118,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel FXLMS on TI DSP; quiet zone tested with lab noise
+RA219,unclear,yes,no,no,no,local_only,time_frequency,laboratory_only,deep ANC speech denoising on STFT of a speech dataset; offline simulation
+RA255,yes,no,no,no,no,local_only,time_domain,laboratory_only,random Fourier feature kernel adaptive filter; simulation with fMRI and server room noise
+RA229,yes,no,no,no,no,local_only,time_domain,laboratory_only,filtered-error LMS narrowband ANC with tachometer reference; simulation and real-time test
+RA126,yes,no,no,no,no,local_only,time_frequency,laboratory_only,virtual sound barrier with blind source separation in STFT domain; room simulation
+RA5,yes,no,no,no,no,local_only,time_domain,laboratory_only,dual FxNLMS/FxSLMS spike-based hardware; generic consumer devices
+RA45,no,no,yes,no,no,local_only,time_domain,outdoor_urban,edge computing noise cancellation for roadside assistance calls; audio sent to call center; sensing during calls only
+RA60,yes,yes,yes,yes,no,local_only,time_domain,laboratory_only,GFANC simulation; 1D CNN multi-label noise classification on co-processor such as a mobile phone
+RA151,yes,yes,no,no,no,local_only,time_domain,laboratory_only,deep learning secondary path decoupled ANC; simulation only

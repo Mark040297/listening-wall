@@ -1,0 +1,261 @@
+id,round,continuous_sensing,ai_ml,network,sound_classification,speech_classification,processing_location,processing_domain,deployment_setting,note
+RA1,pilot,yes,no,no,no,no,local_only,time_domain,personal_wearable,FxRLS-NLMS on FPGA neuromorphic arithmetic for ANC headphones; speech only played as test signal
+RA2,pilot,yes,yes,no,no,no,local_only,time_domain,vehicle_interior,CNN plus fuzzy neural network ANC for autonomous rail rapid transit cabin
+RA3,pilot,yes,yes,no,no,no,local_only,time_domain,personal_wearable,dilated CNN on FPGA for in-ear headphone ANC; noise classification only in related work
+RA4,main,yes,no,yes,no,no,hybrid,time_domain,laboratory_only,digital twin DT-FxLMS: control filter adapted in the cloud and anti-noise generated locally over wireless network
+RA5,pilot,yes,no,no,no,no,local_only,time_domain,laboratory_only,dual FxNLMS/FxSLMS spike-based hardware; generic consumer devices
+RA6,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,feedforward and feedback headset ANC with inverse filter equalization on DSP
+RA7,main,yes,no,yes,no,no,local_only,time_domain,personal_wearable,in-ear adaptive noise canceller for voice input on a Bluetooth audio chip
+RA8,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,Kronecker product FXAPL-NLMS on neuromorphic circuit
+RA9,main,yes,no,no,no,no,local_only,time_domain,outdoor_urban,noise-reduced pod for smart cities with FxLMS on Raspberry Pi
+RA10,main,yes,yes,no,no,no,local_only,frequency_domain,laboratory_only,hybrid deep and online learning spatial ANC in the wave domain; simulation
+RA11,main,yes,yes,unclear,yes,no,local_only,time_frequency,vehicle_interior,2D CNN on co-processor classifies noise from mel spectrograms to select filters for a cabin-like noise box; NLMS
+RA12,main,yes,yes,yes,yes,no,local_only,time_domain,laboratory_only,1D CNN on co-processor such as a mobile phone selects pre-trained filter per frame; FxNLMS
+RA13,main,yes,no,no,no,no,local_only,time_domain,building_interior,portable FXLMS unit on ADAU1452 for coffee machine noise
+RA14,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,modified hybrid narrowband and broadband ANC for vehicle interior noise
+RA15,main,unclear,no,yes,no,no,local_only,unclear,not_specified,A2B digital audio bus network for distributed multichannel microphone and loudspeaker arrays
+RA16,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,DNN decoupling of secondary paths for multichannel feedforward ANC; simulation
+RA17,main,yes,no,yes,no,no,local_only,time_domain,personal_wearable,wireless reference microphones near noise sources feed a multichannel ANC headphone
+RA18,main,yes,yes,no,no,no,local_only,time_frequency,building_interior,hybrid FxNLMS and CNN-LSTM with FFT features for a rehabilitation room
+RA19,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,q-gradient affine projection ANC in airplane seat headrests tested in a Boeing 727 cabin
+RA20,main,yes,no,yes,no,no,local_only,time_domain,laboratory_only,diffusion FxLMS where neighbouring controllers exchange estimates; simulation
+RA21,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,hearable adaptive noise canceller with SNR controlled NLMS on DSP
+RA22,main,yes,yes,no,yes,yes,local_only,time_domain,personal_wearable,smart headphone with ALE ANC; trained voice command module; warns of traffic sounds and nearby talkers
+RA23,main,unclear,yes,yes,no,no,local_only,unclear,outdoor_urban,metamaterial inaudible voice attack device using AI text-to-speech; Raspberry Pi wireless control
+RA24,main,unclear,no,no,no,no,local_only,unclear,laboratory_only,light actuated tunable metamaterial absorber; no microphone
+RA25,main,yes,no,yes,no,no,local_only,time_domain,outdoor_industrial,portable construction machinery ANC units with WiFi MQTT web server for remote management
+RA26,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,systolic FxLMS on FPGA for a feedforward noise cancelling headset; simulation
+RA27,main,yes,no,no,no,no,local_only,unclear,residential_home,overview of active acoustic windows for quieter homes
+RA28,main,yes,no,no,no,no,local_only,time_domain,residential_home,ANC on a top-hung window in a full-size mock-up apartment room
+RA29,main,yes,no,no,no,no,local_only,unclear,building_interior,distributed loudspeaker layout ANC for full-size open sliding windows
+RA30,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,variable step-size median LMS for urban rail vehicle interior noise; measured signals
+RA31,main,yes,yes,no,no,no,local_only,time_domain,outdoor_industrial,CsNNet deep learning feedforward ANC on 1D time series for construction site noise
+RA32,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,pipelined FxLMS on FPGA for in-ear ANC headphones
+RA33,main,yes,no,no,no,no,local_only,time_domain,building_interior,nanostructure sensors and actuators on a window with microcontroller LMS; noisy city buildings
+RA34,main,yes,no,yes,no,no,local_only,time_domain,building_interior,reference microphone audio streamed over building Ethernet to DSP card; IoT concept
+RA35,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,artificial bee colony optimisation ANC without secondary path model; FPGA in anechoic chamber; swarm optimisation not ML
+RA36,main,yes,no,no,no,no,local_only,time_domain,building_interior,coupled feedforward ANC on office partition for open-plan offices; simulation
+RA37,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,FxLMS ANC headphones on Raspberry Pi
+RA38,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,LMS ANC and online monitoring of power transformer noise in LabVIEW; octave display is monitoring only
+RA39,main,yes,yes,no,no,no,not_specified,time_frequency,outdoor_urban,adaptive neuro-fuzzy noise reduction on spectral and temporal features of urban sound; simulation; no hardware described
+RA40,main,unclear,no,no,no,no,not_specified,unclear,outdoor_urban,passive acoustic metamaterial structures in an urban park; microphones only for study measurements
+RA41,main,yes,no,no,no,no,local_only,time_domain,building_interior,cuckoo search filter update ANC for indoor noise with window microphones; DSP hardware; optimisation not ML
+RA42,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,real-time FxLMS family ANC on DSP for 10 kV substation noise near housing
+RA43,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,LMS family ANC options for siren noise inside an ambulance; LabVIEW simulation
+RA44,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,low-cost FxLMS ANC on mini PC in agricultural tractor cabin; FFT only for secondary path estimation
+RA45,pilot,no,no,yes,no,no,local_only,time_domain,outdoor_urban,edge computing noise cancellation for roadside assistance calls; audio sent to call center; sensing during calls only
+RA46,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,automated audiometry with commercial true wireless (Bluetooth) ANC earbuds; ANC algorithm not described
+RA47,main,yes,yes,no,no,no,local_only,time_domain,vehicle_interior,auxiliary ANC with offline trained multi-network signal reconstruction and VSS-LMS; real vehicle data
+RA48,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,binaural feedforward ANC with parametric array loudspeakers for a factory worker; DSP
+RA49,main,yes,no,yes,no,no,local_only,frequency_domain,laboratory_only,distributed partitioned block frequency-domain FxLMS over collaborating acoustic nodes; simulation
+RA50,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,blockwise weighted least squares ANC on CPU-GPU; lab experiments; no target setting
+RA51,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,comb-partitioned frequency-domain constrained adaptive filter; simulation with measured paths
+RA52,main,unclear,no,no,no,no,local_only,frequency_domain,outdoor_industrial,compact barrier plus ANC with theoretically calculated frequency-domain control filter and no microphones; worker rest spaces
+RA53,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,leaky time-domain feedback NFxLMS on FPGA versus DSP
+RA54,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,frequency-domain partitioned block FxLMS; simulation
+RA55,main,yes,no,no,no,no,local_only,time_domain,building_interior,multichannel adjoint LMS for a fully connected ANC window; real-time experiments
+RA56,pilot,yes,yes,no,no,no,local_only,time_domain,outdoor_industrial,deep learning feedback ANC for construction noise and active noise barriers
+RA57,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,ANC simulation for construction equipment noise within a noise management model; algorithm not described
+RA58,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,44-channel independent planar virtual sound barrier at an onsite 110 kV transformer room opening
+RA59,main,yes,yes,no,no,no,local_only,time_frequency,laboratory_only,deep ANC with convolutional recurrent network estimating cancelling spectrograms; speech pass-through is enhancement not classification
+RA60,pilot,yes,yes,yes,yes,no,local_only,time_domain,laboratory_only,GFANC simulation; 1D CNN multi-label noise classification on co-processor such as a mobile phone
+RA61,main,yes,yes,no,no,no,local_only,time_frequency,outdoor_urban,CNN on spectrograms to generate anti-noise for UAV propellers; simulation; conclusion targets urban use
+RA62,main,yes,yes,no,no,no,local_only,time_domain,vehicle_interior,DNN real-time secondary path estimation with FxLMS; duct test; authors target vehicle and aircraft cabins
+RA63,main,yes,yes,no,no,no,local_only,time_domain,outdoor_industrial,CsNNet deep feedforward ANC on 1D time series for construction site noise (journal version of RA31)
+RA64,pilot,yes,yes,unclear,yes,no,local_only,time_frequency,personal_wearable,GFANC headphone; CNN on co-processor (link not described) predicts sub-filter weights as multi-label noise classification from mel input
+RA65,main,yes,yes,no,no,no,local_only,time_frequency,laboratory_only,deep multichannel ANC with CRN complex spectral mapping on STFT; simulation
+RA66,main,yes,yes,yes,yes,no,local_only,time_domain,laboratory_only,GFANC-Bayes; 1D CNN multi-label noise classification on a co-processor such as a mobile phone linked to the real-time controller
+RA67,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,four-channel time-domain FxLMS on enclosure opening for construction machinery noise
+RA68,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,FxLMS active noise barrier on power plant transformer walls protecting urban surroundings; field tests
+RA69,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,structural FxNLMS ANC for a cogeneration plant with shakers accelerometers and a microphone; hardware in the loop
+RA70,main,yes,no,no,no,no,local_only,time_domain,outdoor_urban,LMS ANC prototype for urban road traffic noise; vehicle type categories used only for noise analysis
+RA71,main,unclear,no,no,no,no,not_specified,unclear,outdoor_urban,passive phononic crystal energy harvester; ML and GA used only offline to design the geometry; no microphone; preprint
+RA72,main,yes,no,yes,no,no,local_only,time_domain,laboratory_only,diffusion FxLMM over a wireless acoustic sensor network; simulation
+RA73,main,yes,yes,no,no,no,local_only,time_domain,not_specified,DNoiseNet deep feedback ANC with MLP secondary path estimator; several settings named (construction vehicle cockpit)
+RA74,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,FX-RBF neural network ANC on DSP in a 3D enclosure; publication year 2002 is outside the 2015 to 2025 window
+RA75,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,FxLMS on TI DSP in a 36 m3 test enclosure; compressor noise is a test signal only
+RA76,main,unclear,no,no,no,no,local_only,time_domain,laboratory_only,delayed LMS adaptive filter on FPGA; generic signal processing; no microphone described
+RA77,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,decoupled feedforward-feedback hybrid ANC headphone on FPGA; filter bank only shapes test noise; FFT only for evaluation
+RA78,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel and spherical harmonic FxLMS on FPGA using Faust; laboratory experiment
+RA79,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,feedback FxLMS on LabVIEW FPGA for diesel generator set exhaust noise
+RA80,main,yes,no,no,no,no,local_only,time_domain,outdoor_urban,LMS NLMS RLS comparison in MATLAB on noise recorded at five Lima sites; IoT only as future work
+RA81,main,yes,no,no,no,no,local_only,frequency_domain,residential_home,fixed-filter multichannel tonal control through open windows of urban accommodation; FEM simulation
+RA82,main,yes,yes,no,no,no,local_only,time_domain,outdoor_urban,small deep feedback ANC on raw time-domain signal; framed for urban noise pollution
+RA83,main,yes,no,no,yes,no,local_only,frequency_domain,laboratory_only,SFANC selects pretrained filters by frequency-band match in a partitioned frequency-domain filter; selection is classification but not ML
+RA84,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,improved delayed FxLMS on FPGA for gas station compressor noise affecting nearby residents
+RA85,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,LMS NLMS RLS adaptive noise cancellation on Zynq FPGA for audio quality; no target setting
+RA86,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,fully digital hybrid IMC and MVC feedback ANC headphone on FPGA; FFT for evaluation only
+RA87,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,switched multiple error FxLMS for active noise cancelling casings; simulation on casing models
+RA88,main,yes,yes,yes,yes,no,local_only,time_domain,laboratory_only,GFANC-Kalman; 1D CNN multi-label weights on a separate co-processor such as a laptop; simulation
+RA89,main,yes,no,yes,no,no,local_only,frequency_domain,laboratory_only,fast multichannel Wiener filter with FFT correlations on GPU; DSP linked to PC over TCP
+RA90,main,unclear,yes,no,no,no,not_specified,time_frequency,laboratory_only,graph-guided diffusion speech enhancement for microphone arrays; dataset evaluation; enhancement is not classification
+RA91,main,unclear,no,no,no,no,local_only,time_domain,laboratory_only,LMS and leaky LMS noise canceller on FPGA by hardware co-simulation with stored speech plus noise
+RA92,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,real-time LMS ANC on Cyclone IV FPGA with live audio and sound level measurement
+RA93,main,unclear,no,no,no,no,local_only,time_domain,laboratory_only,NLMS adaptive noise canceller on Spartan FPGA; simulation; no microphone described
+RA94,main,yes,no,yes,no,no,local_only,time_domain,personal_wearable,multichannel ANC headphone fed by wireless reference microphones near noise sources; coherence selection is not classification
+RA95,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,modified FxLMS on ARM Cortex-M4 for car cabin interior noise
+RA96,main,unclear,no,no,no,no,local_only,time_domain,laboratory_only,LMS noise canceller on Artix 7 FPGA with generated white noise; vehicles named only as possible uses
+RA97,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,spectral subtraction speech enhancement in real time on TI C6713 DSP with microphone input
+RA98,main,yes,no,yes,no,no,local_only,time_domain,residential_home,wireless reference microphones for feedforward and hybrid ANC headrest for working from home
+RA99,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,functional link artificial neural network ANC trained with QR-RLS; finite word length simulation
+RA100,main,yes,yes,no,no,no,local_only,time_domain,outdoor_urban,deep deterministic policy gradient reinforcement learning ANC on a sonic crystal traffic noise barrier; FDTD simulation
+RA101,main,yes,no,yes,no,no,local_only,time_domain,outdoor_industrial,LMS ANC on a microcontroller with Bluetooth and Wi-Fi for factory noise; neural networks appear only in the literature review
+RA102,main,yes,yes,no,yes,no,local_only,frequency_domain,personal_wearable,temporal convolutional network noise library selects filter weights by noise type for VR 3D audio on FPGA; mobile server only future work
+RA103,main,yes,no,no,no,no,local_only,time_domain,residential_home,multichannel FxLMS ANC window in situ on a top-hung window of a dormitory room in Singapore
+RA104,main,unclear,no,no,no,no,local_only,frequency_domain,laboratory_only,FFT-based noise canceller with even-odd buffers on FPGA versus adaptive canceller; no microphone described
+RA105,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,LSTM and CNN anti-noise prediction; simulation with SPIB test noises
+RA106,main,no,no,yes,no,no,local_only,time_domain,not_specified,LMS NLMS RLS noise cancellation on Raspberry Pi 4B for teleconferencing audio transmission; microphone active only during user-started sessions (convention 9)
+RA107,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,multiple-iteration FxLMS on Cyclone II FPGA with audio codec; 500 Hz test tone
+RA108,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,parallel branch folding architecture for 4x4x4 multichannel FxLMS on FPGA; small chamber test
+RA109,main,no,yes,yes,no,no,local_only,frequency_domain,personal_wearable,neuro-fuzzy noise estimation with Wiener and spectral subtraction on handheld push-to-talk radios; noise buffering triggered by key press
+RA110,main,yes,no,yes,no,no,local_only,unclear,building_interior,ESP32 classroom noise level monitoring that switches fans and notifies staff by app or SMS; level only
+RA111,main,yes,no,no,no,no,local_only,time_domain,building_interior,microcontroller linked microphone and speaker pairs as nonreciprocal active barrier; window scenario; waveguide tests
+RA112,main,yes,no,no,no,no,local_only,time_domain,residential_home,minimax versus multiple-error LMS for a 4-channel ANC window for quiet living rooms; DSP tests
+RA113,main,yes,no,no,no,no,local_only,time_frequency,laboratory_only,delayless partitioned block filter updated in frequency domain with time-domain output; simulation
+RA114,main,yes,no,no,no,no,local_only,time_domain,residential_home,plenum window ANC placement optimised by surface impedance simulation; FxLMS on FPGA in an apartment case study
+RA115,main,unclear,no,no,no,no,not_specified,unclear,not_specified,passive metamaterial barrier designed by particle swarm and wave FEM; noise categories only design inputs; many target sources
+RA116,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,parallel FxLMS with one reference and 18 error microphones on Artix 7 FPGA
+RA117,main,yes,yes,yes,yes,no,local_only,time_frequency,laboratory_only,SFANC with 1D CNN on waveform and 2D CNN on log-mel classifying noise on a co-processor such as a mobile phone
+RA118,pilot,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel FXLMS on TI DSP; quiet zone tested with lab noise
+RA119,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,independent planar virtual sound barrier at an enclosure opening; frequency-domain analytical model
+RA120,main,yes,no,no,no,no,local_only,time_domain,building_interior,multiple parallel branch folding FxLMS on FPGA; 24x24x24 real-time ANC on an open window
+RA121,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,psychoacoustic FeLMS feedforward plus classical feedback hybrid ANC headphone on FPGA
+RA122,main,yes,no,no,no,no,local_only,time_domain,building_interior,multichannel FxLMS on TI C6713 around an ICU patient bed with recorded ICU noise
+RA123,main,yes,yes,yes,yes,no,local_only,time_frequency,residential_home,2D CNN on mel spectrogram selects pretrained filters on a laptop co-processor linked to a PXI controller; dormitory ANC window
+RA124,main,unclear,no,no,no,no,local_only,time_domain,laboratory_only,LMS and NLMS on MicroBlaze removing 60 Hz interference from ECG; not an acoustic system (eligibility flag)
+RA125,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,feedforward ANC estimating dominant engine frequencies with LMS in time domain for construction machinery; field tests; noise grouping is design only
+RA126,pilot,yes,no,no,no,no,local_only,time_frequency,laboratory_only,virtual sound barrier with blind source separation in STFT domain; room simulation
+RA127,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,regularised autocorrelated error variable step FxLMS on DSP test platform
+RA128,main,yes,no,no,no,no,local_only,frequency_domain,outdoor_industrial,frequency-domain block filtered-U LMS on Artix 7 FPGA for on-site compressor noise
+RA129,main,yes,no,no,no,no,local_only,unclear,building_interior,secondary speaker layout optimisation for indoor ANC of air conditioner noise; adaptive algorithm not detailed
+RA130,main,yes,no,no,no,no,local_only,unclear,outdoor_urban,additional source placement for an active traffic noise barrier; model plus experiment; controller not detailed
+RA131,main,unclear,no,yes,no,no,not_specified,frequency_domain,laboratory_only,soft mask noise suppression before LPC speech encoding for wireless links; NOIZEUS offline evaluation; enhancement not classification
+RA132,main,yes,yes,no,yes,no,local_only,time_frequency,residential_home,selective open-window ANC choosing pretuned filters by trained sound classification of STFT features (bike drilling subway etc.)
+RA133,main,yes,yes,yes,yes,no,local_only,time_frequency,personal_wearable,SFANC with 2D CNN on spectrogram and 1D CNN on waveform on a co-processor such as a mobile phone; hearables
+RA134,main,yes,no,no,no,no,local_only,frequency_domain,building_interior,sensing strategies for an active single-screen barrier in open-plan offices; modal analytical model
+RA135,main,yes,yes,yes,yes,yes,local_only,time_frequency,personal_wearable,SENTIRE BLE headphones and wearable edge unit classify alarms machine sounds and speech with VAD; MQTT and serverless cloud receive events only
+RA136,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,decentralised multichannel active noise barrier with virtual sensing; semi-anechoic chamber tests
+RA137,main,yes,no,no,no,no,local_only,frequency_domain,outdoor_industrial,transducer placement for active barriers at construction sites; frequency-wise squared pressure minimisation; simulation
+RA138,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,binaural hearing aid microphones streamed by radio to a smartphone for DSP and back; no cloud
+RA139,main,unclear,yes,yes,no,no,not_specified,time_frequency,laboratory_only,GCC alignment plus LMS echo cancellation and complex mask LSTM network for residual echo and noise; challenge datasets
+RA140,main,yes,yes,yes,yes,no,local_only,time_domain,personal_wearable,1D CNN SFANC with similarity matching on a co-processor such as a mobile phone for ANC headphones; simulation
+RA141,main,yes,no,unclear,no,no,local_only,time_domain,personal_wearable,tunable digital ANC and pass-through circuit topology for headsets; wireless link of the proposed design not described
+RA142,main,unclear,no,no,no,no,local_only,time_domain,laboratory_only,interval type-2 fuzzy logic controller for vibrating structure noise on dSPACE beam rig; rule-based fuzzy not learned; sensors not stated as microphones
+RA143,main,unclear,no,no,no,no,local_only,time_domain,laboratory_only,virtual microphone control for an active casing using accelerometers only in operation; microphones used only in tuning
+RA144,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,meta-learning (modified MAML and Monte Carlo gradient) initialisation for multichannel FxLMS; simulation
+RA145,main,yes,no,yes,no,no,hybrid,time_domain,laboratory_only,wireless networked ANC with cloud digital twin adapting filters and online secondary path modelling
+RA146,main,yes,no,no,no,no,local_only,time_domain,residential_home,single and decentralised dual-channel LMS ANC on a full-scale plenum window in a domestic apartment
+RA147,main,yes,no,no,yes,no,local_only,time_frequency,laboratory_only,selective ANC choosing pretrained filters from empirical wavelet transform boundaries; selection is classification but not ML; simulation
+RA148,main,yes,no,no,no,no,local_only,time_domain,outdoor_industrial,hybrid narrowband feedforward FXWALMS plus feedback FxLMS for multiple industrial machinery noise; tachometer reference
+RA149,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,parallel analog and digital adaptive feedforward controller for headphones on a dummy head
+RA150,main,yes,yes,no,no,no,local_only,frequency_domain,laboratory_only,HAD-ANC normalised frequency-domain block LMS cascaded with two gated convolutional recurrent networks; NOISEX simulation
+RA151,pilot,yes,yes,no,no,no,local_only,time_domain,laboratory_only,deep learning secondary path decoupled ANC; simulation only
+RA152,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,alternative switching hybrid feedforward-feedback ANC; simulation and real-time tests
+RA153,main,yes,no,yes,no,no,local_only,time_domain,personal_wearable,multichannel wireless hybrid ANC headphone with wireless reference microphones and fixed-adaptive selection
+RA154,main,yes,yes,no,no,no,local_only,frequency_domain,laboratory_only,FLANN subband adaptive filter with q-gradient maximum correntropy for nonlinear ANC; simulation
+RA155,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel FxLMS and FxNLMS implemented with PyTorch automatic differentiation; adaptive filter not a learned model; simulation
+RA156,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,effect of audio amplifier distortion on feedforward FxLMS for tonal noise
+RA157,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,overview of output-constrained FxLMS variants for real-time adaptive ANC
+RA158,main,yes,no,yes,no,no,local_only,frequency_domain,laboratory_only,distributed frequency-constrained multichannel ANC over a wireless sensor network with per-bin penalty via circular convolution; simulation
+RA159,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,improved hybrid ANC with extra adaptive filter and joint-optimised NLMS; simulation
+RA160,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,error reused FxLMS with sliding window; server room recording is a test noise
+RA161,main,yes,yes,yes,yes,no,hybrid,time_frequency,laboratory_only,multichannel SFANC with multi-task CNN classifying frequency and direction of arrival from STFT; co-processor may be a laptop phone or cloud server
+RA162,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,adaptive step-size hybrid ANC with parameters tuned by improved particle swarm optimisation; simulation
+RA163,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,filtered-x weighted-frequency Fourier linear combiner LMS for narrowband ANC with frequency mismatch; rotating machines named generally
+RA164,main,yes,no,yes,no,no,local_only,time_domain,laboratory_only,distributed multichannel ANC with compensation filters tolerant to Wi-Fi delay and interruption; simulation
+RA165,main,yes,no,yes,no,no,local_only,frequency_domain,laboratory_only,distributed wave-domain ANC with diffusion adaptation and local information exchange; simulation
+RA166,main,yes,no,unclear,yes,no,local_only,frequency_domain,laboratory_only,spatial-frequency SFANC selecting filters by Bhattacharyya distance on a co-processor; device not named; not ML
+RA167,pilot,yes,no,yes,no,no,local_only,time_domain,personal_wearable,wireless microphones send reference signals to ANC headphone
+RA168,main,yes,no,no,no,no,local_only,time_frequency,laboratory_only,wavelet packet FxLMS feedback ANC for chaotic and random noise; simulation
+RA169,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,self-boosted weight-constrained FxLMS for distributed ANC with no internode communication; simulation
+RA170,main,yes,no,no,no,no,local_only,time_frequency,laboratory_only,hybrid ANC combining time-domain FxLMS and wavelet packet frequency-domain FxLMS; simulation
+RA171,main,yes,no,yes,no,no,local_only,time_domain,laboratory_only,augmented diffusion FxLMS with neighbourhood adaptation over acoustic sensor and actuator network; simulation
+RA172,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,deep recurrent LSTM network controller for nonlinear ANC; simulation
+RA173,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,neural network feedback ANC controller with variable step-size online learning; simulation
+RA174,main,yes,yes,unclear,yes,no,local_only,time_domain,laboratory_only,unsupervised GFANC 1D CNN generating filter combination weights on a co-processor; device not named; GFANC counted as classification by rule 7
+RA175,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,psychoacoustically weighted remote-zone virtual FxLMS on FPGA at four remote locations
+RA176,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,hybrid ANC with linear prediction filter and input-power-controlled online secondary path modelling; simulation
+RA177,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,gain-scheduled auxiliary noise and variable step size for feedback path cancellation in narrowband ANC; simulation
+RA178,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel feedforward ANC selecting reference microphones by time difference of arrival; localisation not classification; simulation
+RA179,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,extended leaky FxLMS with circulant convolutional penalty giving per-bin frequency constraints; simulation
+RA180,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,CPU-GPU architecture running multichannel delayless subband ANC
+RA181,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,low-latency time-domain deep ANC with attentive recurrent network and delay-compensated training
+RA182,main,yes,no,yes,no,no,local_only,time_domain,personal_wearable,ANC headphone with wireless reference microphones and coherence-based selection; dummy head tests
+RA183,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,online secondary path modelling for narrowband ANC with IIR notch filter bank; simulation
+RA184,main,yes,yes,no,no,no,local_only,time_frequency,laboratory_only,deep ANC with convolutional recurrent network estimating real and imaginary spectrograms (conference version of RA59)
+RA185,main,yes,yes,unclear,yes,no,local_only,time_domain,laboratory_only,GFANC trained by reinforcement learning on a co-processor; device not named; GFANC counted as classification by rule 7
+RA186,main,yes,no,yes,no,no,local_only,time_domain,laboratory_only,exact distributed multichannel filtered-x affine projection over acoustic sensor networks; simulation
+RA187,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,fast-convergence improved hybrid functional link artificial neural network for tonal plus chaotic noise; simulation
+RA188,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,feedback ANC with linear prediction decoupling and online secondary path modelling; simulation
+RA189,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,variable tap-length FLANN and generalised FLANN nonlinear ANC; simulation
+RA190,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel feedforward ANC with TDOA-based optimal reference microphone selector; experiments
+RA191,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,narrowband waveform synthesis ANC optimised by real-coded genetic algorithm; GA is optimisation not ML
+RA192,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,filtered-x affine-projection-like maximum correntropy for impulsive noise; in-vehicle noise only a test input
+RA193,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,review of frequency-domain FxLMS plus a new delayless low-complexity frequency-domain algorithm; simulation
+RA194,main,unclear,yes,no,no,no,not_specified,time_frequency,laboratory_only,DSP pre-cleaning plus CNN-LSTM time-frequency mask for speech denoising; dataset evaluation
+RA195,main,yes,yes,yes,yes,no,hybrid,time_frequency,building_interior,predictive indoor noise cancellation with CNN noise classification on mel spectrograms plus adaptive filtering; edge plus AWS cloud; preprint
+RA196,main,yes,yes,yes,no,no,hybrid,time_frequency,outdoor_urban,live urban sound collection on Arduino Nano BLE via Edge Impulse; ML classes are four intensity levels (level estimation not source classification)
+RA197,main,no,yes,yes,yes,no,local_only,time_frequency,personal_wearable,on-device noise detector plus STFT denoiser for mobile voice calls; detector labels noise presence; mic active only during calls
+RA198,main,yes,no,no,no,no,local_only,time_domain,not_specified,PhD thesis on FxNLMS for ambulance siren inside the vehicle and electric reactor hum at a substation; two settings
+RA199,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,M+ wearable band with sound sensor anti-noise emitter and health sensors; ESP8266 Wi-Fi sends noise levels to a phone app
+RA200,main,yes,yes,yes,yes,yes,local_only,time_frequency,personal_wearable,smart hearing protection with Silero VAD on a Raspberry Pi 5 wearable; Bluetooth machinery detection and MQTT alerts
+RA201,main,yes,yes,yes,yes,yes,local_only,time_frequency,personal_wearable,AI hearing aid with UrbanSound8K sound classifier priority speech recognition and RNNoise; linked to a phone app
+RA202,main,unclear,yes,no,no,no,not_specified,unclear,laboratory_only,comparison of CNN architectures for babble noise removal from speech on NOIZEUS; offline; input representation not stated
+RA203,main,unclear,yes,no,no,no,not_specified,time_frequency,outdoor_industrial,acoustic denoising network on STFT images for worker communication at construction sites; offline evaluation; web service and walkie-talkie only future work
+RA204,main,yes,no,no,no,no,local_only,time_domain,building_interior,feedback ANC in MATLAB Simulink for car horn noise in a hospital patient room modelled by a wooden cavity
+RA205,main,unclear,yes,no,no,no,not_specified,time_frequency,outdoor_industrial,DNN ratio mask with PNCC features to denoise sound measurements in machine tool factories; offline
+RA206,main,yes,no,yes,no,no,local_only,unclear,not_specified,8051 sound sensors with ASK wireless links that mute or lower sources above thresholds; hospitals schools and homes named
+RA207,main,yes,yes,no,yes,no,local_only,time_frequency,not_specified,CNN on UrbanSound8K MFCC plus YAMNet identify unwanted sounds for inversion; speech labels not reported though YAMNet includes them
+RA208,main,unclear,yes,no,no,no,not_specified,time_frequency,laboratory_only,U-Net on STFT spectrograms to denoise music from IRMAS with UrbanSound8K noise; offline
+RA209,main,no,yes,yes,yes,yes,cloud_only,time_frequency,outdoor_urban,FuSA web platform and API classify uploaded urban recordings with a transferred PANN model; taxonomy includes human talking
+RA210,main,unclear,yes,no,yes,yes,not_specified,time_frequency,not_specified,AI noise reduction software for recorded remote teaching audio with a voice activity detection module; offline
+RA211,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,hybrid secondary-path filtered ANC and FxANFIS neuro-fuzzy on Raspberry Pi 4; wireless only future work
+RA212,main,unclear,yes,yes,yes,yes,not_specified,unclear,not_specified,CMANC-Net with fast ICA bee-colony feature selection and CNN-BiLSTM classifying desired speech versus interference for speech transmission; dataset evaluation
+RA213,main,unclear,yes,no,yes,no,not_specified,time_frequency,not_specified,KNN and logistic regression classify noise versus important sounds for selective cancellation; analysis of uploaded files in Colab
+RA214,main,yes,no,no,no,no,local_only,time_frequency,laboratory_only,Haar wavelet subband multichannel FxNLMS with 64 parallel NLMS on FPGA
+RA215,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,Petri fuzzy brain emotional learning neural network as adaptive noise canceller; simulation
+RA216,main,no,yes,yes,no,no,local_only,frequency_domain,personal_wearable,ANFIS noise estimation with Wiener and spectral subtraction for digital PMR push-to-talk radios; real-time codec test (convention 9)
+RA217,main,yes,no,yes,no,no,local_only,time_domain,laboratory_only,distributed filtered-x set membership affine projection on an FPGA spiking neural P system processor; membrane computing not ML
+RA218,main,unclear,yes,no,yes,yes,not_specified,time_frequency,laboratory_only,SVM noise-type classifier drives adaptive VAD threshold and IMCRA-OMLSA speech denoising; offline experiments
+RA219,pilot,unclear,yes,no,no,no,local_only,time_frequency,laboratory_only,deep ANC speech denoising on STFT of a speech dataset; offline simulation
+RA220,main,unclear,yes,no,yes,yes,not_specified,time_frequency,laboratory_only,MANC ANet with dual-tree complex wavelet features and CNN-attention LSTM classifying desired speech versus interference; dataset evaluation
+RA221,main,unclear,yes,no,no,no,not_specified,unclear,outdoor_urban,review of machine learning surrogates for urban noise prediction mapping and adaptive barrier optimisation; no sensing system proposed
+RA222,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,Volterra recursive even mirror Fourier nonlinear filter for acoustic feedback in nonlinear ANC; engine intake duct is an example; lab experiments
+RA223,main,yes,no,no,yes,no,local_only,frequency_domain,laboratory_only,selective ANC choosing pretrained filters by frequency-band match in comb-partitioned frequency domain; tested in a lab duct
+RA224,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,two-stage ANC with online secondary path filter and scheduled step-size NLMS; human voice used only as a test noise
+RA225,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,improved and simplified FLANN filters with filtered-error LMS for nonlinear ANC; simulation
+RA226,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,interpolated individual-weighting subband Volterra filtered-x normalised SAF with virtual microphone; simulation
+RA227,main,yes,yes,no,no,no,local_only,time_frequency,building_interior,stacked autoencoder ANC on real and imaginary spectrograms; anechoic and reflective room experiments; aimed at rooms without headphones
+RA228,main,yes,no,no,yes,no,local_only,frequency_domain,laboratory_only,selective virtual sensing with subband auxiliary filters chosen by frequency-band matching (classification by rule 7); experiments
+RA229,pilot,yes,no,no,no,no,local_only,time_domain,laboratory_only,filtered-error LMS narrowband ANC with tachometer reference; simulation and real-time test
+RA230,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel virtual sensing FxLMS with auxiliary filters; frequency analysis only; real-time on PXI in a test chamber
+RA231,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,modified model-agnostic meta-learning initial control filter for FxLMS; simulation with measured paths
+RA232,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,tap-decomposed Volterra filter with maximum correntropy for nonlinear ANC; transformer noise is a simulation case
+RA233,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,mode-domain spatial ANC with sparse plane-wave reference representation and circular arrays; experiments
+RA234,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,random Fourier feature kernel FxLMS for multichannel narrowband nonlinear ANC; kernel filter not ML by rule 2; simulation
+RA235,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,narrowband ANC with parallel adaptive notch filter frequency estimation; pipe experiments
+RA236,main,yes,no,no,yes,no,local_only,frequency_domain,personal_wearable,frequency response matching SFANC for headphones on a BES2300 DSP; filter selection is classification by rule 7; differential evolution not ML
+RA237,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,bilinear functional link artificial neural network filter for nonlinear ANC; simulation
+RA238,main,yes,no,no,no,no,local_only,time_domain,building_interior,momentum multichannel normalised FxLMS for a noise control window with real traffic noise and measured paths
+RA239,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,hybrid ANC variants with online secondary path modelling; simulation
+RA240,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,cascaded random Fourier kernel filter with hyperbolic secant cost for impulsive nonlinear ANC; kernel filter not ML; simulation
+RA241,main,yes,yes,no,no,no,local_only,time_domain,laboratory_only,fractional-order gradient mixture correntropy for FLANN-based multichannel nonlinear ANC; simulation
+RA242,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,feedforward hybrid ANC with sinusoidal residual error structure for machinery noise with bursts; duct platform
+RA243,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,frequency-weighted leaky FxLMS with per-frequency leakage factors; simulations and experiments
+RA244,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,real-coded genetic algorithm adaptive ANC without secondary path identification; GA not ML
+RA245,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,time-domain multichannel adaptive filter with spatial derivative constraints to enlarge quiet zones; simulation
+RA246,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,narrowband ANC with linear cascaded adaptive notch filter and autoregressive fine frequency estimation; simulation
+RA247,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,survey of output-constraint and nonlinear ANC algorithms for saturation; recommends constraint FxLMS family; no ML system proposed
+RA248,main,yes,no,no,no,no,local_only,time_domain,building_interior,multichannel adjoint LMS with momentum; real-time tests on a multichannel ANC window
+RA249,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,narrowband ANC with Bayesian inference frequency estimator; statistical estimation not ML by rule 2; simulation
+RA250,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,feedforward spatial ANC with kernel ridge regression sound field interpolation and frequency-domain NLMS; interpolation weights not trained on data; simulation
+RA251,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,hybrid ANC with time-domain remote microphone technique and GA sensor selection; offline simulation from semi-anechoic data; car cabin noise is a test case
+RA252,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,multichannel spline adaptive filters for nonlinear ANC; adaptive nonlinear filter not called a neural network; simulation
+RA253,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,combined step-size filtered-x affine-projection-like exponential hyperbolic sine for impulsive noise; simulation
+RA254,main,yes,no,no,no,no,local_only,frequency_domain,building_interior,underdetermined multichannel fixed-filter control for open windows in high-rise buildings; FEM; authors note error microphones raise privacy concerns
+RA255,pilot,yes,no,no,no,no,local_only,time_domain,laboratory_only,random Fourier feature kernel adaptive filter; simulation with fMRI and server room noise
+RA256,main,yes,no,no,no,no,local_only,frequency_domain,laboratory_only,robust delayless subband adaptive filter with bounded variable step sizes for impulsive broadband noise; simulation
+RA257,main,yes,no,no,no,no,local_only,time_domain,laboratory_only,two-gradient direction FxLMS with output constraint; simulation and SISO tests
+RA258,main,yes,yes,yes,yes,yes,local_only,unclear,personal_wearable,industrial hearing PPE with ML voice activity detection on a Raspberry Pi; BLE localisation and HTTP alerts; model only pretrained in cloud
+RA259,main,yes,yes,yes,yes,yes,local_only,unclear,personal_wearable,smart hearing protection headphones with VAD-driven DSP filtering; MQTT alerts and BLE beacons
+RA260,main,yes,yes,no,no,no,local_only,frequency_domain,personal_wearable,NSNet2 frequency-domain mask speech enhancement compiled to C for a time-predictable edge processor for hearing aids and headsets

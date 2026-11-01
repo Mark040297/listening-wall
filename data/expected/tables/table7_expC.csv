@@ -1,0 +1,8 @@
+Policy,Frames redacted (%),"ESTOI, 0 dB","LAeq bias (dB), 0 dB","ESTOI, +10 dB","LAeq bias (dB), +10 dB","Band error 0.5 to 4 kHz (dB), +10 dB"
+P0 None,0,0.57,0.00,0.81,0.00,0.00
+"P1a Fixed, 0.5 to 4 kHz",100,0.30,−6.86,0.41,−5.92,38.98
+"P1b Fixed, 0.15 to 5 kHz",100,0.08,−17.74,0.11,−18.63,48.93
+P2 Adaptive removal,68,0.15,−7.06,0.13,−12.18,18.11
+"P3 Adaptive, level preserving",68,0.10,−0.06,0.06,−0.05,0.06
+"P4 Oracle, level preserving",68,0.02,−0.04,0.03,−0.04,0.05
+Noise only (reference),,0.00,,0.00,,

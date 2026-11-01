@@ -1,0 +1,16 @@
+id,continuous_sensing,ai_ml,network,sound_classification,speech_classification,processing_location,processing_domain,deployment_setting,note
+158,yes,no,no,no,no,local_only,frequency_domain,personal_wearable,contact free ANC headphone; control by frequency band
+169,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,AI hearing aid separates speech from non-speech
+176,unclear,unclear,yes,no,no,local_only,unclear,outdoor_urban,UAM sends RPM and position data to noise canceller at transfer station; active during takeoff and landing
+1046,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear ANC headphone with damped vent
+1500,yes,no,no,no,no,local_only,unclear,personal_wearable,earphone ANC tuned to wearer coupling
+296,unclear,no,no,no,no,local_only,unclear,vehicle_interior,vehicle noise environment simulator for testing a noise control system; no microphone described
+2343,yes,no,no,no,no,local_only,time_domain,not_specified,ANC with tuning microphone and impulse signal; bandpass and adaptive filter
+1563,yes,no,no,no,no,local_only,time_domain,not_specified,averaged digital filters with error microphone
+2324,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive filters with head position detection
+1282,yes,no,no,no,no,local_only,unclear,vehicle_interior,headrest-integrated feedback ANC in vehicle
+1173,yes,unclear,no,no,no,local_only,unclear,vehicle_interior,vehicle ANR using secondary channel distance and environment information
+1414,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC with delay compensation
+1206,yes,no,no,no,no,local_only,time_domain,not_specified,ANC circuit with parallel filters
+1323,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward and narrowband feedback ANC with secondary path filter
+1332,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,vehicle ANC with frequency dependent control coefficients and variable step size

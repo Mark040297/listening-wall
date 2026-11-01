@@ -1,0 +1,246 @@
+corpus,id,column,original,cleaned,rule,rule_text
+articles,all,DEPLOYMENT_SETTING,DEPLOYEMENT_SETTING,DEPLOYMENT_SETTING,R8,Column DEPLOYEMENT_SETTING is renamed DEPLOYMENT_SETTING (spelling).
+articles,RA33,HAS_MICROPHONE,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,MICROPHONE_TYPE,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,ALWAYS_ON_SENSING,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,SENSING_FREQ_RANGE,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,PRIMARY_ALGORITHM,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,USES_AI_OR_ML,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,ML_MODEL_TYPE,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,SOUND_CLASSIFICATION,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,CLASSIFICATION_CLASSES,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,PROCESSING_DOMAIN,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,PROCESSING_HARDWARE,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,HAS_NETWORK_CONNECTIVITY,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,CONNECTIVITY_TYPE,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,DATA_TRANSMITTED,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,MENTIONS_PRIVACY,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,DEPLOYMENT_SETTING,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,IMPLEMENTATION_STATUS,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,ML_TRAINING_DATA_SOURCE_CATEGORY,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA33,ML_TRAINING_DATASET_NAME,error_pdf,not_coded,R6,Coder 1 could not open the file of this article ('error_pdf'); every cell is recorded as not_coded.
+articles,RA2,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA4,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA5,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA6,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA7,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA9,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA10,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA11,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA12,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA13,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA14,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA22,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA25,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA31,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA38,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA39,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA41,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA42,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA43,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA44,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA45,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA46,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA47,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA48,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA49,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA50,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA51,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA56,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA57,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA59,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA60,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA61,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA62,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA63,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA64,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA65,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA66,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA67,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA68,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA69,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA70,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA72,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA73,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA74,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA75,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA77,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA78,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA79,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA83,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA84,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA85,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA86,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA87,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA88,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA89,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA90,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA91,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA92,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA93,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA94,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA95,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA98,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA99,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA100,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA101,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA102,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA103,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA106,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA109,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA117,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA118,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA119,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA120,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA121,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA122,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA123,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA125,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA126,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA127,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA128,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA129,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA130,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA131,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA132,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA133,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA134,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA136,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA137,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA140,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA141,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA142,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA143,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA145,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA146,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA147,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA148,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA149,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA150,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA151,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA152,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA153,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA154,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA155,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA156,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA157,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA158,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA161,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA162,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA163,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA164,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA165,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA166,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA167,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA168,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA169,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA170,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA172,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA173,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA174,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA175,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA176,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA177,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA178,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA190,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA191,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA192,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA195,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA196,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA197,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA198,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA199,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA200,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA204,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA206,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA207,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA214,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA216,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA217,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA218,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA219,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA220,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA222,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA223,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA224,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA225,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA226,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA227,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA228,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA229,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA230,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA231,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA232,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA233,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA234,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA235,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA236,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA238,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA239,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA246,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA248,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA249,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA250,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA251,ALWAYS_ON_SENSING,adaptive,yes,R1,Continuous sensing coded 'adaptive' is recorded as yes: an adaptive controller runs on a live microphone signal.
+articles,RA13,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA15,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA46,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA57,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA58,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA71,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA123,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA215,PROCESSING_DOMAIN,not_specified,unclear,R2,Processing domain 'not_specified' is recorded as unclear: the codebook has one category for both.
+articles,RA174,DEPLOYMENT_SETTING,headphones,personal_wearable,R3,Setting 'headphones' is recorded as personal_wearable.
+articles,RA210,DEPLOYMENT_SETTING,remote_education,other,R4,A setting label outside the codebook list is recorded as other.
+articles,RA211,DEPLOYMENT_SETTING,industrial_noise_control,other,R4,A setting label outside the codebook list is recorded as other.
+patents,1681,YEAR,2018,2016,R7,Patent year is taken from the application date of the search record.
+patents,1756,YEAR,2018,2016,R7,Patent year is taken from the application date of the search record.
+patents,1757,YEAR,2018,2017,R7,Patent year is taken from the application date of the search record.
+patents,1758,YEAR,2018,2015,R7,Patent year is taken from the application date of the search record.
+patents,1332,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1333,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1334,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1335,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1339,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1349,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1381,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1400,PROCESSING_LOCATION,building_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1401,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1417,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1427,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1431,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1432,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1448,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1449,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1465,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1475,PROCESSING_LOCATION,building_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1484,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1485,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1500,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1505,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1515,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1516,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1519,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1520,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1534,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1549,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1560,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1564,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1567,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1569,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1570,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1584,PROCESSING_LOCATION,building_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1588,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1620,PROCESSING_LOCATION,building_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1634,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1649,PROCESSING_LOCATION,building_exterior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1655,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1675,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1682,PROCESSING_LOCATION,building_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1691,PROCESSING_LOCATION,building_exterior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1697,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1700,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1701,PROCESSING_LOCATION,vehicle_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1704,PROCESSING_LOCATION,building_exterior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1705,PROCESSING_LOCATION,personal_wearable,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.
+patents,1715,PROCESSING_LOCATION,building_interior,not_specified,R5,Processing location cells that repeat a deployment setting label are recorded as not_specified: no processing location was recorded for these patents.

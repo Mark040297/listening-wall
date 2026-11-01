@@ -1,0 +1,393 @@
+id,round,continuous_sensing,ai_ml,network,sound_classification,speech_classification,processing_location,processing_domain,deployment_setting,note
+158,pilot,yes,no,no,no,no,local_only,frequency_domain,personal_wearable,contact free ANC headphone; control by frequency band
+169,pilot,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,AI hearing aid separates speech from non-speech
+176,pilot,yes,unclear,yes,no,no,local_only,unclear,outdoor_urban,UAM sends RPM and position data to noise canceller at transfer station; microphone ANC so yes under v2 rule 5
+179,main,yes,no,yes,no,no,local_only,unclear,building_exterior,distributed reference sound collectors feed a receiver and noise map for a building complex
+181,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,secondary path modeling with virtual microphone in vehicle
+247,main,yes,no,yes,no,no,local_only,unclear,not_specified,device communication unit receives location from a mobile terminal and steers mic and speaker
+248,main,yes,no,no,yes,no,local_only,unclear,vehicle_interior,road noise cancellation detects non-stationary transient events to pause adaptation
+254,main,yes,no,yes,no,no,local_only,unclear,residential_home,inter-floor noise monitor sends noise level to central management via home network wall pad
+296,pilot,unclear,no,no,no,no,local_only,unclear,vehicle_interior,vehicle noise environment simulator for testing a noise control system; no microphone described
+297,main,yes,no,no,no,no,local_only,time_domain,not_specified,hybrid analog and digital filter noise canceller
+301,main,unclear,no,no,no,no,local_only,unclear,vehicle_interior,vehicle noise environment simulator; no microphone described
+304,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,adaptive filter divergence control by coefficient comparison
+332,main,yes,no,no,no,no,local_only,unclear,building_interior,secondary path estimate from microphone array in a listening room
+385,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC with delay compensation
+392,main,yes,no,no,no,no,local_only,unclear,personal_wearable,hearing protector ANC that passes a preset communication band
+395,main,yes,no,unclear,no,no,local_only,unclear,not_specified,ANC platform that receives a control algorithm and conditions; link not described
+422,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,masking sound so passengers cannot hear each other
+428,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,re-measures secondary path when residual noise exceeds a threshold
+429,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,verifies stored secondary path by detecting noise boosting
+437,main,yes,yes,unclear,no,no,not_specified,unclear,outdoor_urban,deep learning ANC with microphone and speaker arrays along roads
+438,main,yes,yes,unclear,no,no,not_specified,unclear,outdoor_urban,deep learning ANC with microphone and speaker arrays along railways
+446,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,feedback ANC for headphones with frequency-warped low order FIR
+447,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,ANC units along a construction site boundary
+448,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,hearing protector receives signals from an external network; voice enhancement mode
+449,main,yes,no,unclear,no,no,local_only,unclear,not_specified,ANC platform with configurable algorithm; link not described
+455,main,yes,unclear,yes,yes,yes,local_only,unclear,vehicle_interior,in-car call system classifies talker by voice through ANC microphones
+471,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,noise level based masking between seats
+472,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,masking sound between seats with howling compensation
+474,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,masking and cancelling spindle noise of a machine tool
+485,main,yes,no,no,no,no,local_only,unclear,personal_wearable,hearing protector ANC passing a preset communication band
+492,main,yes,no,no,no,no,local_only,unclear,personal_wearable,wearable ANC body near the ear with microphone sensors
+524,main,yes,no,yes,no,no,local_only,unclear,building_exterior,reference noise collectors in sections of a complex building feed a receiver and noise map
+534,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,road surface estimate from accelerometer adjusts ANC gain
+563,main,yes,no,no,no,no,local_only,frequency_domain,outdoor_urban,active programmable metamaterial cells respond by frequency and phase; vehicle noise
+570,main,unclear,unclear,no,no,no,local_only,unclear,not_specified,acoustic metamaterial with embedded microphone array; purpose not stated
+573,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,active programmable metamaterial cells respond by frequency and phase
+589,main,unclear,yes,no,no,no,local_only,unclear,not_specified,metamaterial performance prediction with surrogate models trained on simulation samples; no microphone
+595,main,unclear,no,no,no,no,local_only,unclear,residential_home,passive metamaterial design for refrigerator noise
+597,main,unclear,no,no,no,no,local_only,unclear,not_specified,tunable film metamaterial with magnetic field; no microphone
+618,main,unclear,no,no,no,no,local_only,unclear,building_interior,passive metamaterial for HVAC duct; no microphone
+633,main,yes,unclear,unclear,no,no,local_only,unclear,personal_wearable,metamaterial hearing aid with sensor that monitors environmental noise in real time
+636,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,active programmable metamaterial cells respond by frequency and phase
+658,main,unclear,unclear,no,no,no,local_only,unclear,not_specified,acoustic metamaterial with embedded microphone array; purpose not stated
+662,main,unclear,unclear,no,no,no,local_only,unclear,not_specified,acoustic metamaterial with embedded microphone array; purpose not stated
+698,main,no,no,no,no,no,local_only,frequency_domain,building_interior,room geometry analysis on demand using calibration signal and frequency transfer functions
+838,main,yes,no,unclear,no,no,local_only,unclear,building_interior,air conditioner noise monitoring with weighted microphone array
+851,main,unclear,no,no,no,no,local_only,unclear,not_specified,passive acoustic filter against ultrasonic attacks on voice devices
+868,main,unclear,no,no,no,no,local_only,unclear,not_specified,passive acoustic filter against ultrasonic attacks on voice devices
+889,main,unclear,no,no,no,no,local_only,unclear,building_interior,gadget storage box that jams microphones during confidential meetings
+904,main,yes,unclear,unclear,no,no,not_specified,unclear,building_interior,workstation microphones and processing device generate cancelling sounds
+1008,main,yes,no,no,no,no,local_only,unclear,personal_wearable,flexible conductive hearing aid
+1044,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear ANC headphone with damped vent
+1045,main,yes,no,no,no,no,local_only,time_domain,not_specified,modified FxLMS with variable penalty factor
+1046,pilot,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear ANC headphone with damped vent
+1047,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear ANC headphone with damped vent
+1049,main,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,trained name embedding model detects the user's name in live audio and switches ANC to conversation mode
+1050,main,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,trained name embedding model detects the user's name in live audio and switches ANC to conversation mode
+1051,main,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,trained name embedding model detects the user's name in live audio and switches ANC to conversation mode
+1053,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,acoustic camera locates aerodynamic noise region in vehicle
+1054,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,hearing device ANC with perforated speaker membrane
+1056,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,seat microphones and adaptive filter with channel gain ratio
+1057,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,verifies stored secondary path by detecting noise boosting
+1058,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,aircraft panel tuned mass dampers matched to sensed frequency
+1060,main,yes,no,no,no,no,local_only,time_domain,not_specified,independent component analysis stores statistical noise data for adaptive filter
+1061,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,shaped noise stimulus for online secondary path modeling in cabin
+1062,main,yes,no,no,no,no,local_only,unclear,not_specified,speaker arrangement for ear positions
+1067,main,no,no,no,no,no,local_only,unclear,vehicle_interior,calibration method to choose reference sensor locations; microphone used during calibration
+1070,main,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,trained name embedding model detects the user's name in live audio and switches ANC to conversation mode
+1073,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,single microphone cancels other seat audio with adaptive filters
+1074,main,yes,no,no,no,no,local_only,time_domain,not_specified,alternating adaptive systems with auxiliary filters for ear position
+1076,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,road noise control switches adaptive mode on accelerometer overload
+1077,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,adaptive and auxiliary filters for two cancellation positions in a car
+1078,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,beamformed reference for road noise control
+1081,main,yes,unclear,no,no,no,local_only,unclear,not_specified,microphone array selects reference among intermittent noise sources
+1082,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,subband adaptive filters model secondary path on instability
+1083,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,variable filter updated by adaptive algorithm for on-vehicle audio
+1084,main,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive line enhancer detects tonal instability
+1085,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,hearing device detects wind noise and changes feed-forward mix
+1086,main,no,no,no,no,no,local_only,unclear,vehicle_interior,calibration method to choose reference sensor locations; microphone used during calibration
+1087,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,frequency domain ANC with quadrature reconstruction of error signal
+1088,main,yes,unclear,no,no,no,local_only,unclear,not_specified,microphone array selects reference among intermittent noise sources
+1089,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC headphone sets filter parameters from pre-tested data
+1101,main,yes,no,no,no,no,local_only,time_domain,not_specified,narrowband hybrid ANC with linear prediction subsystem
+1102,main,yes,yes,no,no,no,local_only,unclear,vehicle_interior,convolutional fuzzy neural network identifies secondary path for vehicle global ANC
+1103,main,yes,no,no,no,no,local_only,time_domain,building_interior,momentum FxLMS with online secondary channel identification for indoor noise
+1104,main,unclear,no,no,no,no,local_only,unclear,vehicle_interior,exhaust noise speakers protected by wading depth detection; no microphone described
+1109,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC design by two system identification steps
+1116,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,secondary source layout for car cabin ANC
+1121,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,Bluetooth audiometer headset with ANC and mobile app
+1123,main,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive line enhancer detects tonal instability
+1125,main,yes,no,no,no,no,local_only,time_domain,not_specified,variable step LMS for secondary channel identification
+1127,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,vehicle ANC with series-connected microphones and head unit
+1129,main,yes,no,no,no,no,local_only,time_domain,not_specified,control filter from buffered error signals
+1130,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear ANC headphone with damped vent
+1132,main,yes,no,no,no,no,local_only,unclear,not_specified,control filter from reference and specific signal
+1133,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,ANC module in air intake or exhaust of a power generation unit
+1134,main,yes,no,no,no,no,local_only,unclear,not_specified,simulated quiet zone around a mobile phone for calls
+1135,main,yes,no,no,no,no,local_only,time_domain,not_specified,ANC circuit with static and adaptive filters
+1136,main,yes,no,no,no,no,local_only,time_domain,not_specified,ANC with tuning microphone and impulse signal
+1142,main,yes,no,no,no,no,local_only,unclear,not_specified,fan noise ANC in an electronic device using fan speed information
+1144,main,yes,no,no,no,no,local_only,unclear,not_specified,fan noise ANC in an electronic device using fan speed information
+1145,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC design with analog filter
+1146,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear microphone with noise control microphone and talking microphone
+1149,main,yes,yes,unclear,no,no,local_only,frequency_domain,personal_wearable,wearable sets frequency dependent gain from audiogram using LMS or a machine learning model
+1150,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,ANC earphones with a sound source identification module
+1157,main,yes,unclear,no,yes,no,local_only,unclear,not_specified,source separation identifies inputs from a particular sound source for targeted cancellation
+1158,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,adaptive filter with correlation threshold in passenger compartment
+1159,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,adaptive filter with correlation threshold in passenger compartment
+1163,main,yes,no,no,no,no,local_only,time_domain,not_specified,error path model correction by cross correlation
+1169,main,unclear,no,no,no,no,local_only,unclear,outdoor_industrial,construction machine plays preset noise samples chosen from operating parameters; no microphone described
+1173,pilot,yes,unclear,no,no,no,local_only,unclear,vehicle_interior,vehicle ANR using secondary channel distance and environment information
+1174,main,yes,no,no,no,no,local_only,unclear,not_specified,seat with enclosureless silencing speaker near the head
+1175,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedback ANC separating narrowband and broadband residual components
+1177,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC audio input and output device powered through the terminal jack
+1180,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,feedforward road noise control with sensors near the multimedia unit
+1181,main,yes,no,no,no,no,local_only,time_domain,not_specified,pre-emphasis and de-emphasis around ANC filtering in a playback device
+1182,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,ANC headrests combined to create quiet zones at other seats
+1183,main,yes,no,no,no,no,local_only,unclear,not_specified,adaptive filter update using secondary path phase estimates
+1184,main,yes,no,no,no,no,local_only,unclear,building_interior,ANC near an indoor glass window for low frequency noise
+1185,main,yes,no,no,no,no,local_only,unclear,not_specified,zoned ANC systems in a listening environment
+1187,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,vehicle ANC with frequency dependent control coefficients and variable step size
+1190,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,propagation delay identification with binary limiter for vehicle ANC
+1192,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,seat mounted ANC for high speed train carriages
+1194,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,multichannel adaptive filter with per path step sizes in a vehicle
+1196,main,yes,yes,unclear,no,no,local_only,frequency_domain,personal_wearable,wearable sets frequency dependent gain from audiogram using LMS or a machine learning model
+1199,main,yes,no,no,no,no,local_only,time_domain,not_specified,control filter from buffered error signals
+1200,main,yes,no,no,no,no,local_only,unclear,not_specified,phase delay correction of low frequency noise in a non-closed device
+1201,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,ANC earphones with a sound source identification module
+1202,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,ANC earphones with slicer and combined gain adjustment
+1204,main,yes,no,no,no,no,local_only,frequency_domain,personal_wearable,hearing device ANC controller computed per frequency range from sound pressure ratio
+1205,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear ANC headphone with damped vent
+1206,pilot,yes,no,no,no,no,local_only,time_domain,not_specified,ANC circuit with parallel filters
+1207,main,yes,no,no,no,no,local_only,time_domain,not_specified,disturbance determination by summed correlation between reference and error signals
+1208,main,yes,unclear,yes,yes,yes,local_only,unclear,vehicle_interior,in-car call system classifies talker by voice through ANC microphones
+1209,main,yes,no,no,no,no,local_only,time_domain,not_specified,analog filter ANC with gain and phase adjusted by a processing circuit
+1210,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,estimates ANC performance from residual and control signal estimates
+1211,main,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,trained name embedding model detects the user's name in live audio and switches ANC to conversation mode
+1212,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,shaped noise stimulus for online secondary path modeling in cabin
+1213,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,host mobile device uses GPS and Bluetooth broadcast to pick a noise profile for the wearable
+1215,main,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive notch filter and feedback filter at a predetermined frequency
+1217,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,seat microphones and adaptive filter with channel gain ratio
+1218,main,yes,no,yes,no,no,local_only,unclear,vehicle_interior,head unit receives noise from wireless earphones and sends back opposite phase signal
+1221,main,yes,yes,unclear,no,no,local_only,frequency_domain,personal_wearable,wearable sets frequency dependent gain from audiogram using LMS or a machine learning model
+1223,main,yes,no,no,no,no,local_only,time_domain,not_specified,independent component analysis stores statistical noise data for adaptive filter
+1225,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,multichannel road noise control with matrix filtered reference update
+1228,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,adaptive filters remove vibration sensor resonance from the reference
+1233,main,yes,yes,no,yes,no,local_only,unclear,vehicle_interior,trained noise of interest model compares in-vehicle noise by type and sets the control area
+1248,main,yes,no,no,no,no,local_only,time_domain,not_specified,ANC circuit with static and adaptive filters in parallel
+1249,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,verifies stored secondary path by detecting noise boosting
+1264,main,yes,no,no,no,no,local_only,unclear,not_specified,fan noise ANC in an electronic device using fan speed information
+1265,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC design with analog filter
+1266,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC design by two system identification steps on a DSP
+1268,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,road roughness sets convergence coefficient
+1269,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,reference compressor and amplitude based step size
+1270,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,noise level based anti-noise between seats for speech privacy
+1273,main,yes,unclear,no,no,no,local_only,unclear,not_specified,microphone array selects reference among intermittent noise sources
+1274,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,ANC headrest with flange position sensor
+1275,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC with planar transducers in headphones and earphones
+1276,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear microphone module with ANC
+1277,main,yes,no,no,no,no,local_only,unclear,building_interior,multichannel duct ANC by inverse filtering
+1278,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,daisy chained digital microphones for road noise control with fault diagnosis
+1280,main,yes,no,no,no,no,local_only,time_domain,not_specified,PI controller feedback ANC with corrected control signal
+1281,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,microphone array noise wavefield and head tracking for passenger ears
+1282,pilot,yes,no,no,no,no,local_only,unclear,vehicle_interior,headrest-integrated feedback ANC in vehicle
+1283,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,hearing device detects wind noise and changes feed-forward mix
+1285,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,ANC module in air intake or exhaust of a power generation unit
+1286,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,ANC earphones with a sound source identification module
+1287,main,yes,unclear,no,no,no,local_only,unclear,not_specified,microphone array selects reference among intermittent noise sources
+1288,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,ANC headphones with echo cancellation of playback audio
+1290,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,vehicle ANC tested with simulated engine noise
+1298,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,ANC headset switches preset feedback filters by signal criteria
+1299,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,ANC headset anti-saturation filter using movement sensor
+1301,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,vehicle ANC microphones powered by external amplifier
+1302,main,yes,no,no,no,no,local_only,time_domain,not_specified,auto selection of secondary path estimation filter
+1304,main,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive line enhancer detects tonal instability
+1305,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,vehicle ANC tested with simulated engine noise
+1307,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,subband adaptive filters model secondary path on instability
+1308,main,yes,no,no,no,no,local_only,time_domain,not_specified,ANC control circuit with compensation of playback audio
+1310,main,yes,no,no,no,no,local_only,unclear,personal_wearable,headphone reference microphone acoustically summed from several ports
+1313,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,adaptive filter frequency response adjusted by microphone energy distribution
+1317,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC headphone sets filter parameters from pre-tested data
+1323,pilot,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward and narrowband feedback ANC with secondary path filter
+1326,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,driver monitoring system tracks ear position for adaptive ANC
+1329,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,single microphone cancels other seat audio with adaptive filters
+1330,main,yes,no,no,no,no,local_only,time_domain,not_specified,alternating adaptive systems with auxiliary filters for ear position
+1332,pilot,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,vehicle ANC with frequency dependent control coefficients and variable step size
+1333,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,adaptive filters with variable sensor and actuator participation in vehicle
+1334,main,yes,no,no,no,no,local_only,unclear,personal_wearable,headphone detects whether it is worn from a system parameter
+1335,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC headphone sets filter parameters from pre-tested data
+1339,main,yes,no,no,no,no,local_only,unclear,personal_wearable,earplug detects whether it is worn by comparing signals
+1346,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,computer system user interface communicates with wearable to adjust noise management
+1347,main,yes,yes,no,no,no,local_only,unclear,not_specified,trained neural network generates sound control pattern from noise inputs
+1348,main,yes,no,no,no,no,local_only,time_domain,not_specified,selects pre-stored impulse response and tuning parameters
+1349,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,vehicle ANR with auxiliary control parameters
+1374,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,secondary path switching by matching estimated impulse response in cabin
+1376,main,yes,unclear,no,yes,no,local_only,unclear,not_specified,source separation identifies inputs from a particular sound source for targeted cancellation
+1377,main,yes,no,no,no,no,local_only,unclear,not_specified,zoned ANC systems in a listening environment
+1381,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,combined road and engine sense signals for broadband ANC
+1383,main,yes,no,no,no,no,local_only,unclear,personal_wearable,earphone ANC tuned to wearer coupling
+1384,main,yes,no,no,no,no,local_only,unclear,not_specified,loudspeaker and microphone geometry for ANC target position
+1398,main,yes,no,no,no,no,local_only,time_domain,not_specified,internal model and minimum variance control structures
+1400,main,yes,no,no,no,no,local_only,unclear,building_interior,loudspeaker array plane wave ANC in a room
+1401,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC headphone power state from microphone evaluation at two frequencies
+1402,main,yes,no,unclear,no,no,local_only,unclear,personal_wearable,client terminal microphone and earphone transducer combined for ANC
+1409,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,narrowband engine order ANC with music compensation
+1410,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,host mobile device uses GPS and Bluetooth broadcast to pick a noise profile for the wearable
+1414,pilot,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC with delay compensation
+1417,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,feedback ANC added to reactive silencer in a car
+1426,main,yes,no,no,no,no,local_only,time_domain,not_specified,echo cancellation and noise cancellation variable filters
+1427,main,yes,no,no,no,no,local_only,time_domain,not_specified,auxiliary filter selected by detected ear position
+1428,main,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive and auxiliary filters for two cancellation positions
+1429,main,yes,no,no,no,no,local_only,time_domain,not_specified,echo cancellation and noise cancellation adaptive filters sharing one error
+1431,main,yes,unclear,no,no,no,local_only,unclear,personal_wearable,in-ear headphone with non-overlapping speaker and microphone projection
+1432,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,variable filter updated by adaptive algorithm for on-vehicle audio
+1433,main,yes,no,no,no,no,local_only,time_domain,not_specified,multichannel adaptive filter with leakage factors
+1434,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,host mobile device uses GPS and Bluetooth broadcast to pick a noise profile for the wearable
+1446,main,yes,no,no,no,no,local_only,time_domain,not_specified,accelerometer reference with shadow noise control filter
+1448,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,head related impulse responses updated on head movement in vehicle
+1449,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,headphone ANC with prediction filter
+1450,main,yes,no,no,no,no,local_only,time_domain,not_specified,accelerometer reference with shadow noise control filter
+1463,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,adaptive subband filtering with partial subband updates
+1465,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,headrest microphones and seat speakers in vehicle cabin
+1466,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,adaptive subband filtering with partial subband updates
+1468,main,yes,no,yes,no,no,cloud_only,unclear,outdoor_urban,moving vehicle microphone arrays send noise data to a remote processing system that drives stationary loudspeaker arrays
+1473,main,yes,no,no,no,no,local_only,time_domain,not_specified,feed-backward and feed-forward prediction compensation paths
+1474,main,yes,no,unclear,no,no,local_only,time_domain,not_specified,prediction compensation paths with far-end speaker signal input
+1475,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,ANC core attached to intake vent of a power generation unit
+1477,main,yes,no,unclear,no,no,local_only,time_domain,not_specified,prediction compensation paths with far-end speaker signal input
+1479,main,yes,no,yes,no,no,local_only,unclear,personal_wearable,headset sends encoded microphone signals to a sending device that cleans and sends to a communication network
+1484,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,headrest microphones and seat speakers in vehicle cabin
+1485,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,headrest microphones and seat speakers in vehicle cabin
+1498,main,yes,no,no,no,no,local_only,time_domain,not_specified,control filter updated by sum of squared error pressures
+1499,main,yes,no,no,no,no,local_only,time_domain,not_specified,selects pre-stored impulse response and tuning parameters
+1500,pilot,yes,no,no,no,no,local_only,unclear,personal_wearable,earphone ANC tuned to wearer coupling
+1503,main,yes,yes,no,no,no,local_only,unclear,not_specified,trained neural network generates sound control pattern from noise inputs
+1504,main,yes,yes,no,no,no,local_only,unclear,not_specified,trained neural network generates sound control pattern from noise inputs
+1505,main,yes,no,yes,no,no,local_only,unclear,vehicle_interior,seat noise control apparatuses in a train or airplane share common suppression information
+1506,main,yes,no,no,no,no,local_only,time_domain,not_specified,correction filter for error microphone to user position
+1507,main,yes,no,no,no,no,local_only,time_domain,not_specified,reference microphone detects secondary path change
+1510,main,yes,no,no,no,no,local_only,time_domain,not_specified,different timing of control filter and secondary path filter adaptation
+1514,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,ear-worn device identifies background noises against a dictionary of annoying sounds
+1515,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,occupancy changes virtual microphone transfer function in cabin
+1516,main,yes,no,unclear,no,no,local_only,unclear,personal_wearable,earphone ANC switches anti-noise on detected vibration; audio from an electronic device
+1517,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,ear-worn device identifies background noises against a dictionary of annoying sounds
+1518,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,ear-worn device identifies background noises against a dictionary of annoying sounds
+1519,main,yes,no,no,no,no,local_only,unclear,personal_wearable,earphone with steerable beam microphone arrangement
+1520,main,yes,no,no,no,no,local_only,unclear,personal_wearable,earphone with steerable beam microphone arrangement
+1523,main,yes,no,no,no,no,local_only,time_domain,not_specified,internal model control ANC with adaptive primary and secondary path filters
+1525,main,yes,no,no,no,no,local_only,time_domain,not_specified,suppresses cancelling sound change based on propagation distance
+1529,main,yes,no,no,no,no,local_only,time_domain,not_specified,selects reference and error from several noise microphones
+1534,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,secondary path switching by matching estimated impulse response in cabin
+1545,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,ear-worn device identifies background noises against a dictionary of annoying sounds
+1549,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,single frequency engine cancellation with harmonic component detectors
+1560,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC headphone power state from microphone evaluation at two frequencies
+1563,pilot,yes,no,no,no,no,local_only,time_domain,not_specified,averaged digital filters with error microphone
+1564,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,front and back seat ANC removing other zone frequency band components
+1566,main,yes,no,no,no,no,local_only,unclear,not_specified,loudspeaker and microphone geometry for ANC target position
+1567,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,vehicle ANC against noise from external sources
+1568,main,yes,no,no,no,no,local_only,time_domain,not_specified,two control filters with band limiting filters
+1569,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,train ANC adjusted by vehicle position
+1570,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,dynamic divergence detection of controllable filters in vehicle
+1584,main,yes,no,no,no,no,local_only,unclear,residential_home,cooker hood chimney ANC
+1588,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,head related impulse responses updated on head movement in vehicle
+1608,main,yes,no,no,no,no,local_only,time_domain,not_specified,feed-backward and feed-forward prediction compensation paths
+1615,main,yes,no,no,no,no,local_only,time_domain,not_specified,feed-backward and feed-forward prediction compensation paths
+1620,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,ANC core attached to intake vent of a power generation unit
+1631,main,yes,no,no,no,no,local_only,time_domain,not_specified,two control filters with band limiting filters
+1634,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,headrest microphones and seat speakers in vehicle cabin
+1647,main,yes,unclear,no,yes,no,local_only,unclear,not_specified,identifies the hardware component from its noise and plays a pre-associated cancelling signal
+1649,main,yes,no,no,no,no,local_only,unclear,building_interior,wave-domain cancellation of noise entering a building aperture
+1655,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,estimated road noise reference from speed and tire data for cabin ANC
+1670,main,yes,yes,no,no,no,local_only,time_domain,not_specified,deep learning anti-noise generator with atrous convolutions and RNN
+1671,main,unclear,yes,unclear,no,no,not_specified,unclear,outdoor_urban,machine learning predicts aerial vehicle noise from prior operations to generate anti-noise
+1675,main,yes,no,no,yes,no,local_only,unclear,vehicle_interior,ANC distinguishes engine noise from engine-external noise
+1680,main,yes,unclear,unclear,yes,no,local_only,unclear,not_specified,open ANC identifies noise elements and tracks user position with sensors
+1681,main,unclear,yes,unclear,no,no,not_specified,unclear,outdoor_urban,machine learning predicts aerial vehicle noise from prior operations to generate anti-noise
+1682,main,yes,no,no,no,no,local_only,time_domain,not_specified,dual driver loudspeaker with secondary path estimate for anti-noise
+1687,main,yes,no,no,no,no,local_only,time_domain,not_specified,virtual reference microphones reduce multichannel LMS computation
+1691,main,yes,no,no,no,no,local_only,unclear,building_interior,wave-domain cancellation of noise entering a building aperture
+1697,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,3D camera head tracking for quiet zones in passenger area
+1698,main,yes,yes,no,no,no,local_only,unclear,vehicle_interior,artificial intelligence tunes engine tone using interior noise sensor
+1700,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,adaptive filter restriction state when control is unstable
+1701,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,estimated road noise reference from speed and tire data for cabin ANC
+1703,main,yes,no,no,no,no,local_only,unclear,not_specified,double buffered coefficient update between DSP and ANC module
+1704,main,yes,no,no,no,no,local_only,unclear,building_interior,ANC module in a window ventilation channel
+1705,main,yes,no,no,no,no,local_only,unclear,personal_wearable,earpiece with user selectable cancellation or reproduction
+1707,main,no,no,yes,no,no,local_only,unclear,not_specified,call device generates anti-phase near-end noise and improves far-end voice during calls
+1715,main,yes,no,no,no,no,local_only,unclear,building_interior,secondary path estimate from microphone array in a listening room
+1718,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,cabin microphone estimates sound at a remote virtual location
+1736,main,yes,no,no,yes,no,local_only,unclear,vehicle_interior,road noise cancellation detects object strikes as non-stationary events
+1739,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,multi-rotor vehicle cabin ANC with camera head tracking
+1744,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ANC earmuffs for riding with external microphone pass-through
+1751,main,yes,yes,unclear,yes,no,not_specified,unclear,building_interior,AI models classify recorded noise at an entry point and alert user to emergency sounds
+1756,main,unclear,yes,unclear,no,no,not_specified,unclear,outdoor_urban,machine learning predicts aerial vehicle noise from prior operations to generate anti-noise
+1757,main,unclear,yes,unclear,no,no,not_specified,unclear,outdoor_urban,machine learning predicts aerial vehicle noise from prior operations to generate anti-noise
+1758,main,unclear,yes,unclear,no,no,not_specified,unclear,outdoor_urban,machine learning predicts aerial vehicle noise from prior operations to generate anti-noise
+1759,main,unclear,yes,unclear,no,no,not_specified,unclear,outdoor_urban,machine learning predicts aerial vehicle noise from prior operations to generate anti-noise
+1761,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,error signal processed by amplitude-frequency characteristic in a vehicle interior
+1768,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,microphone array with averaged virtual and monitor error signals in vehicle
+1775,main,yes,unclear,no,yes,no,local_only,unclear,personal_wearable,headset picks ANC or hear-through mode from the scene type of the environment
+1796,main,yes,no,no,no,no,local_only,unclear,outdoor_industrial,microphones and speakers around a rotor of a flight vehicle or power generator
+1798,main,yes,no,no,no,no,local_only,unclear,personal_wearable,ear mounted ANC filter shaped to a target transfer function for tinnitus treatment
+1805,main,no,no,yes,no,no,local_only,unclear,not_specified,call device generates anti-phase near-end noise and improves far-end voice during calls
+1806,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,fixed feedforward road noise filter with adaptive transducer calibration
+1825,main,no,no,yes,no,no,local_only,unclear,not_specified,call device generates anti-phase near-end noise and improves far-end voice during calls
+1836,main,yes,no,no,no,no,local_only,unclear,not_specified,transfer function identification when seat detector shows use
+1840,main,yes,no,no,yes,no,local_only,unclear,vehicle_interior,matches noise waveform to stored warning sounds and replays the warning
+1847,main,yes,no,no,yes,no,local_only,frequency_domain,not_specified,frequency domain test flags non-stationary noise and stops anti-noise
+1848,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,detects noise frequency and adds masking components at other frequencies
+1849,main,yes,no,no,yes,no,local_only,frequency_domain,not_specified,frequency domain test flags non-stationary noise and stops anti-noise
+1850,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,camera based occupant head position and state adjust cancellation
+1853,main,yes,no,no,yes,no,local_only,frequency_domain,not_specified,frequency domain test flags unsteady noise and pauses filter update
+1865,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,frequency domain adaptive control filters for a defined site
+1923,main,unclear,no,no,no,no,local_only,unclear,not_specified,camera images of vibration estimate noise instead of a reference microphone
+1936,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,multi-microphone processing in the spatial frequency domain
+1940,main,yes,no,no,no,no,local_only,time_domain,not_specified,central and parallel processors split adaptive filter convolution and update
+1959,main,yes,yes,no,no,no,local_only,time_domain,not_specified,deep learning anti-noise with encoder attention LSTM decoder
+1983,main,yes,no,no,no,no,local_only,unclear,vehicle_interior,per-seat ANC disabled for empty seats
+2011,main,yes,no,no,no,no,local_only,unclear,personal_wearable,feedforward ear housing with external microphones time aligned to noise
+2021,main,no,no,yes,yes,yes,local_only,frequency_domain,not_specified,hands-free call device identifies which microphone carries the talker's speech
+2046,main,yes,unclear,yes,yes,yes,local_only,unclear,vehicle_interior,quiet zone around hands-free microphone used for voice recognition and phone calls
+2055,main,yes,no,no,no,no,local_only,unclear,not_specified,silent zone with three microphones in isosceles layout
+2065,main,yes,unclear,no,yes,no,local_only,unclear,not_specified,identifies a trigger sound and predicts a disturbing sound to mute or suppress it
+2066,main,yes,unclear,no,yes,no,local_only,unclear,not_specified,identifies a trigger sound and predicts a disturbing sound to mute or suppress it
+2076,main,yes,no,no,no,no,local_only,time_domain,building_interior,momentum LMS for indoor ANC
+2078,main,unclear,no,yes,no,no,local_only,unclear,vehicle_interior,mobile terminal computes ANC control signal and transmits it to the on-vehicle system
+2091,main,yes,unclear,yes,no,no,local_only,unclear,personal_wearable,hearing aid with wearable camera switches conditioning mode and transmits audio to a hearing interface
+2097,main,yes,no,no,no,no,local_only,unclear,not_specified,silent zone with three microphones in isosceles layout
+2107,main,yes,unclear,no,yes,no,local_only,unclear,not_specified,identifies a trigger sound and predicts a disturbing sound to mute or suppress it
+2127,main,unclear,no,yes,no,no,local_only,unclear,vehicle_interior,mobile terminal computes ANC control signal and transmits it to the on-vehicle system
+2205,main,yes,no,no,no,no,local_only,time_domain,not_specified,alternating adaptive systems with auxiliary filters for ear position
+2233,main,unclear,yes,no,no,no,local_only,unclear,not_specified,neural network adaptive line enhancer
+2241,main,yes,yes,yes,yes,no,cloud_only,unclear,not_specified,networked service trains DNN classifiers and classifies users' input sounds by label and environment
+2242,main,yes,unclear,yes,yes,no,cloud_only,unclear,outdoor_industrial,cloud-based acoustic monitoring creates noise signatures and diagnoses root causes at a power plant
+2251,main,yes,unclear,unclear,yes,no,not_specified,unclear,outdoor_industrial,acoustic monitoring creates noise signatures and diagnoses root causes at a power plant
+2269,main,yes,yes,no,yes,no,local_only,unclear,vehicle_interior,neural network detects emergency vehicle sirens for an autonomous vehicle
+2290,main,unclear,no,yes,no,no,local_only,unclear,vehicle_interior,sound zone focusing of Bluetooth phone audio in a vehicle; no microphone
+2292,main,yes,no,no,yes,yes,local_only,time_domain,personal_wearable,in-ear device adaptive filter paused on detected user speech
+2302,main,yes,no,no,no,no,local_only,unclear,not_specified,noise source position estimator selects stored control filter
+2306,main,yes,no,no,no,no,local_only,unclear,not_specified,spatial ANC control filter calculation with fewer error microphones
+2308,main,yes,no,no,no,no,local_only,time_domain,not_specified,switches cancellation position with ear position while limiting false detection
+2309,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,driver monitoring system tracks ear position for adaptive ANC
+2310,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,single frequency engine cancellation with harmonic component detectors
+2311,main,yes,no,no,no,no,local_only,time_domain,not_specified,ultradirective speakers cancel noise at each ear
+2312,main,yes,no,no,no,no,local_only,unclear,not_specified,switches stereo and monaural control by noise frequency
+2316,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,ANC headset anti-saturation filter using movement sensor
+2317,main,yes,no,no,no,no,local_only,time_domain,building_interior,pipe ANC accounting for secondary path reverberation
+2320,main,yes,no,no,no,no,local_only,time_domain,not_specified,echo cancellation and noise cancellation variable filters
+2321,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,driver monitoring system predicts ear position for adaptive ANC
+2323,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,non-enclosed feedback ANC with shelf and low-boost filters for vehicle cabins
+2324,pilot,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive filters with head position detection
+2326,main,yes,no,no,no,no,local_only,time_domain,not_specified,error path model correction by cross correlation
+2331,main,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive filter bank for multiple microphones and loudspeakers
+2343,pilot,yes,no,no,no,no,local_only,time_domain,not_specified,ANC with tuning microphone and impulse signal; bandpass and adaptive filter
+2345,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC with delay compensation
+2347,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward and narrowband feedback ANC with secondary path filter
+2348,main,yes,no,no,no,no,local_only,time_domain,not_specified,feedforward ANC design by two system identification steps
+2359,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,control signals synthesized at each dominant noise frequency
+2360,main,unclear,no,no,no,no,local_only,unclear,not_specified,simulation of ANC sound field before installation in open space
+2361,main,unclear,no,no,no,no,local_only,unclear,not_specified,evaluation of ANC layouts by sound field simulation
+2367,main,yes,no,no,no,no,local_only,time_domain,personal_wearable,ANC headset switches preset feedback filters by signal criteria
+2369,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,per-frequency coefficient table by engine rotational frequency
+2458,main,yes,no,yes,no,no,local_only,unclear,not_specified,networked terminal filters noise and shares noise information with other terminals
+2506,main,yes,no,no,yes,yes,local_only,time_domain,personal_wearable,in-ear device adaptive filter paused on detected user speech
+2512,main,unclear,no,yes,no,no,local_only,unclear,vehicle_interior,sound zone focusing of Bluetooth phone audio in a vehicle; no microphone
+2522,main,yes,yes,no,yes,yes,local_only,unclear,personal_wearable,AI hearing aid separates voice from non-voice
+2549,main,yes,no,no,no,no,local_only,unclear,building_exterior,speaker unit on the exterior side of a window opening with outside and inside microphones
+2577,main,yes,no,unclear,no,no,local_only,unclear,personal_wearable,earphone adjusts collected ambient sound by type and amount; terminal involved
+2578,main,yes,no,no,no,no,local_only,unclear,building_interior,sound zones with speech masking to reduce speech intelligibility in another zone
+2605,main,yes,no,no,no,no,local_only,unclear,personal_wearable,earphone adjusts collected ambient sound by type and amount
+2637,main,yes,no,no,no,no,local_only,unclear,personal_wearable,headset on-ear detection from probe signal estimate
+2642,main,yes,yes,unclear,no,no,local_only,unclear,not_specified,trained recurrent neural network updates adaptive filter weights for far-end echo
+2654,main,yes,unclear,yes,yes,yes,not_specified,unclear,not_specified,voice enabled device on a network removes media playback to recognize voice commands
+2655,main,yes,unclear,yes,yes,yes,not_specified,unclear,not_specified,voice enabled device on a network removes media playback to recognize voice commands
+2659,main,yes,unclear,yes,yes,yes,not_specified,unclear,not_specified,voice enabled device on a network removes media playback to recognize voice commands
+2789,main,yes,yes,unclear,no,no,local_only,unclear,not_specified,trained recurrent neural network updates adaptive filter weights for far-end echo
+3024,main,yes,no,no,no,no,local_only,time_domain,not_specified,hybrid analog and digital filter noise canceller
+3025,main,yes,no,no,no,no,local_only,time_domain,not_specified,correction filter for error microphone to user position
+3026,main,yes,no,no,no,no,local_only,time_domain,not_specified,suppresses cancelling sound change based on propagation distance
+3027,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,internal model control ANC updating secondary path without disturbing occupants
+3028,main,yes,no,no,no,no,local_only,time_domain,not_specified,determines whether the secondary path transfer function changed
+3032,main,yes,no,no,no,no,local_only,time_domain,vehicle_interior,single microphone cancels other seat audio with adaptive filters
+3034,main,yes,no,no,no,no,local_only,time_domain,not_specified,selects reference and error from several noise microphones
+3035,main,yes,no,no,no,no,local_only,time_domain,not_specified,buffer correlation suppresses abnormal noise from disturbance
+3037,main,yes,no,no,no,no,local_only,time_domain,not_specified,selects several references and an error from noise microphones
+3038,main,yes,no,no,no,no,local_only,frequency_domain,not_specified,tracks peak frequency by extracting components at several frequencies
+3040,main,yes,no,no,no,no,local_only,time_domain,not_specified,vibration noise estimated with correction filters
+3042,main,yes,no,no,no,no,local_only,time_domain,not_specified,adaptive sine and cosine filter removes a sound source frequency component
+3043,main,yes,no,no,no,no,local_only,time_domain,not_specified,smooth switching of digital filter coefficients
+3048,main,yes,no,no,no,no,local_only,unclear,not_specified,transfer function identification with seat in use position
+3050,main,yes,no,no,no,no,local_only,frequency_domain,vehicle_interior,front and rear seat ANC with conversation assistance removing band components
+3106,main,yes,no,no,no,no,local_only,time_domain,not_specified,reduces calculation load of control and secondary path filter updates

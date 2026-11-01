@@ -1,0 +1,10 @@
+Sensor output,Time resolution,STOI,ESTOI,ESTOI above floor (paired)
+Fine magnitude spectrogram,8 ms,0.993 ± 0.001,0.982 ± 0.002,+0.981 ± 0.003
+"Mel spectrogram, 64 bands",32 ms,0.796 ± 0.004,0.694 ± 0.006,+0.694 ± 0.006
+Third octave band levels,20 ms,0.736 ± 0.004,0.586 ± 0.006,+0.585 ± 0.006
+Third octave band levels,50 ms,0.585 ± 0.004,0.445 ± 0.006,+0.445 ± 0.006
+Third octave band levels,125 ms,0.449 ± 0.005,0.287 ± 0.006,+0.286 ± 0.006
+Third octave band levels,250 ms,0.407 ± 0.006,0.157 ± 0.005,+0.156 ± 0.005
+Third octave band levels,500 ms,0.356 ± 0.006,0.057 ± 0.004,+0.056 ± 0.004
+Third octave band levels,1 s,0.341 ± 0.006,0.016 ± 0.002,+0.015 ± 0.003
+Floor: noise with long term spectrum,None,0.342 ± 0.007,0.001 ± 0.002,0
